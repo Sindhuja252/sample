@@ -13,6 +13,9 @@ class _HomepageState extends State<Homepage> {
       appBar: AppBar(
         title: Text("Home Page"),
       ),
+      body: Center(
+        child: Text("Home Page View"),
+      ),
     );
   }
 }
